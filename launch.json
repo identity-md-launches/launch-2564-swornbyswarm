@@ -1,0 +1,24 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "SwornToken",
+    "name": "swornbyswarm",
+    "symbol": "SWORN",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {
+    "poolBps": 7000,
+    "initialMarketCapWei": "5000000000000000000000",
+    "remainderTo": "0xee2aaa315cf7ed169f93148d30d24af9318dbb66"
+  },
+  "notes": "SwornToken is the swornbyswarm (SWORN) ERC-20 with 18 decimals. Its argument-free constructor mints the entire fixed supply of 1,000,000,000 SWORN once to msg.sender. It has no owner, further minting, transfer tax, burn mechanism, pause or blocklist. No application contracts are deployed. X: x.com/swornbyswarm. Website: swornbyswarm.sites.imd.fun. pool.initialPrice is provenance only; the deployer derives the opening price from economics.initialMarketCapWei and token.totalSupply."
+}
