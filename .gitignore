@@ -1,0 +1,22 @@
+# Foundry build output
+out/
+cache/
+broadcast/
+
+# Local scratch space for the worker; never part of the deliverable
+test/scratch/
+
+# Editor and shell noise
+.idea
+.vscode
+.bash_profile
+.bashrc
+.profile
+.zprofile
+.zshrc
+.gitconfig
+.gitmodules
+.mcp.json
+.ripgreprc
+.npm/
+.claude/
